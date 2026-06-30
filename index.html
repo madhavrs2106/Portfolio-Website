@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./assets/Images/Tab_Icon.png"/>
+  <title>Madhav Shukla | Data Analyst</title>
+  <meta name="description" content="Madhav Shukla — Data Analyst, Machine Learning Enthusiast & Front-End Developer. Portfolio of dashboards, data projects and web experiences.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+</head>
+
+<body>
+
+<!-- Cursor Glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">MS<span class="logo-dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-nav>Home</a>
+      <a href="#about" class="nav-link" data-nav>About</a>
+      <a href="#skills" class="nav-link" data-nav>Skills</a>
+      <a href="#experience" class="nav-link" data-nav>Experience</a>
+      <a href="#projects" class="nav-link" data-nav>Projects</a>
+      <a href="#certifications" class="nav-link" data-nav>Certifications</a>
+      <a href="#education" class="nav-link" data-nav>Education</a>
+      <a href="#contact" class="nav-link" data-nav>Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HOME ===== -->
+<section class="hero" id="home">
+  <div id="particles-js"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-text" data-aos="fade-up" data-aos-duration="800">
+      <p class="hero-eyebrow"><span class="eyebrow-line"></span> Welcome to my portfolio</p>
+      <h1 class="hero-greeting">Hi, I'm</h1>
+      <h1 class="hero-name">Madhav Shukla</h1>
+
+      <h2 class="hero-role">
+        <span id="typed-role"></span><span class="cursor-blink"></span>
+      </h2>
+
+      <p class="hero-desc">
+        I transform raw data into meaningful insights, work with ML frameworks & predict data and build modern web experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-diagram-project"></i> View Projects
+        </a>
+        <a href="./assets/Resume/Madhav_Shukla_resume.pdf" class="btn btn-outline" download>
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <i class="fa-solid fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/madhavrs2106" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/madhavshuklar21/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://wa.me/9243762486" target="_blank" aria-label="Email"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://hackerrank.com/profile/madhavrs2106" target="_blank" aria-label="HackerRank"><i class="fa-brands fa-hackerrank"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-photo" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+      <div class="photo-ring"></div>
+      <div class="photo-frame" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.25">
+        <img src="./assets/Images/Profile_Photo.jpg" alt="Madhav Shukla">
+      </div>
+      <div class="float-card float-card-1"><i class="fa-solid fa-chart-line"></i> Data Analysis</div>
+      <div class="float-card float-card-2"><i class="fa-brands fa-python"></i> Python</div>
+      <div class="float-card float-card-3"><i class="fa-solid fa-robot"></i> ML</div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">01 — Get to know me</p>
+      <h2 class="section-title">About Me</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text" data-aos="fade-right">
+        <p>
+          I'm a B.Tech Computer Science student passionate about Data Analytics, Machine Learning,
+          and Front-End Development. I enjoy solving real-world problems using data, building
+          interactive dashboards, and creating responsive web applications.
+        </p>
+        <p>
+          I'm continuously learning new technologies while working on practical projects that
+          improve my analytical and development skills.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-card glass">
+            <h3><span class="counter" data-target="2">0</span>+</h3>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat-card glass">
+            <h3><span class="counter" data-target="6">0</span></h3>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-card glass">
+            <h3><span class="counter" data-target="5">0</span>+</h3>
+            <p>Years Learning</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-info glass" data-aos="fade-left">
+        <h3>Quick Info</h3>
+        <ul class="info-list">
+          <li><span><i class="fa-solid fa-user"></i> Name</span><span>Madhav Shukla</span></li>
+          <li><span><i class="fa-solid fa-graduation-cap"></i> Degree</span><span>B.Tech CSE</span></li>
+          <li><span><i class="fa-solid fa-location-dot"></i> Based in</span><span>Madhya Pradesh, India</span></li>
+          <li><span><i class="fa-solid fa-briefcase"></i> Focus</span><span>Data Analytics & ML</span></li>
+          <li><span><i class="fa-solid fa-language"></i> Languages</span><span>English, Hindi</span></li>
+        </ul>
+        <a href="./assets/Resume/Madhav_Shukla_resume.pdf" class="btn btn-primary btn-block" download>
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">02 — What I work with</p>
+      <h2 class="section-title">Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="0">
+        <div class="skill-card-head">
+          <div class="skill-icon"><i class="fa-solid fa-chart-simple"></i></div>
+          <h3>Data Analytics</h3>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Statistical Analysis</span>
+          <span class="tag">Exploratory Data Analysis</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card-head">
+          <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Machine Learning</h3>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Regression</span>
+          <span class="tag">Classification</span>
+          <span class="tag">Model Evaluation</span>
+          <span class="tag">Feature Engineering</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-card-head">
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Front-end Development</h3>
+        </div>
+        <div class="tag-row">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">Responsive Design</span>
+          <span class="tag">Git</span>
+
+        </div>
+      </div>
+
+      <div class="skill-card glass" data-aos="fade-up" data-aos-delay="300">
+        <div class="skill-card-head">
+          <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Soft Skills</h3>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Problem Solving</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Teamwork</span>
+          <span class="tag">Critical Thinking</span>
+          <span class="tag">Continuous Learning</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">03 — Where I've worked</p>
+      <h2 class="section-title">Experience</h2>
+    </div>
+
+    <!-- ===== My Portfolio ===== -->
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-date">Starting Date: <span style="color: white; margin-left: 20px;">22 Jun, 2026</span> </span>
+          <br/>
+          <span class="timeline-date">Deadline Date: <span style="color: white; margin-left: 20px;">29 Jun, 2026</span> </span>
+          <br/><br/>
+          <h2>• My Portfolio (Self-Driven Project)</h2>
+          <p class="timeline-org">- Independent Practice</p>
+          <br/>
+          <p>
+            Designed and developed a modern, responsive portfolio website featuring interactive
+            animations, glassmorphism UI, project showcases, and optimized user experience using
+            HTML, CSS, and JavaScript.
+          </p>
+          <br/>
+        </div>
+      </div>
+
+    <!-- ===== Student Performance Dashboard ===== -->
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-date">Starting Date: <span style="color: white; margin-left: 20px;">14 Jun, 2026</span> </span>
+          <br/>
+          <span class="timeline-date">Deadline Date: <span style="color: white; margin-left: 20px;">20 Jun, 2026</span> </span>
+          <br/><br/>
+          <h2>• Student Performance Dashboard (Self-driven Project)</h2>
+          <p class="timeline-org">- Independent Practice</p>
+          <br/>
+          <p style="color: gainsboro;">
+            Student Performance Analytics Dashboard – An end-to-end data analytics
+            project demonstrating data cleaning, exploratory data analysis, predictive
+            modeling, and interactive dashboard development. The project uses Python
+            for data preprocessing and machine learning, followed by Power BI for
+            visualization and business insights.
+          </p>
+          <br/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">04 — Things I've built</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ===== Student Performance Dashboard ===== -->
+      <div class="project-card glass" data-aos="fade-up" data-aos-delay="0">
+        <div class="project-img">
+          <img src="./assets/Images/Projects/Students_Performance_dashboard.png" alt="Student Performance Analysis dashboard">
+          <div class="project-overlay">
+            <a href="#" aria-label="View live"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <a href="#" aria-label="View code"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Student Performance Dashboard</h3>
+          <p>
+            Student Performance Analytics Dashboard – An end-to-end data analytics project
+            demonstrating data cleaning, exploratory data analysis, predictive modeling, and
+            interactive dashboard development. The project uses Python for data preprocessing
+            and machine learning, followed by Power BI for visualization and business insights.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Power BI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== Portfolio Website ===== -->
+      <div class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-img">
+          <img src="assets/Images/Projects/Portfolio_Website_image.png" alt="Portfolio Website">
+          <div class="project-overlay">
+            <a href="#" aria-label="View live"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <a href="#" aria-label="View code"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Portfolio Website</h3>
+          <p>
+            Responsive personal portfolio with animations and modern UI — built with glassmorphism,
+            scroll reveals, and smooth interactions.
+          </p>
+          <div class="tag-row">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="section" id="certifications">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">05 — Verified learning</p>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="0">
+        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+        <h3>Python for Data Science</h3>
+        <p>NPTEL — IIT Madras</p>
+      </div>
+
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="50">
+        <div class="cert-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Data Analytics with Python</h3>
+        <p>NPTEL — IIT Roorkee</p>
+      </div>
+
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="100">
+        <div class="cert-icon"><i class="fa-solid fa-chart-pie"></i></div>
+        <h3>Power BI for Beginners</h3>
+        <p>Microsoft &amp; Simplilearn</p>
+      </div>
+
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="150">
+        <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>Machine Learning using Python</h3>
+        <p>Microsoft &amp; Simplilearn</p>
+      </div>
+
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="200">
+        <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+        <h3>Introduction to SQL</h3>
+        <p>Microsoft &amp; Simplilearn</p>
+      </div>
+
+      <div class="cert-card glass" data-aos="fade-up" data-aos-delay="250">
+        <div class="cert-icon"><i class="fa-solid fa-file-excel"></i></div>
+        <h3>MS Excel</h3>
+        <p>Microsoft &amp; Simplilearn</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">06 — My academic path</p>
+      <h2 class="section-title">Education</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-date">2025 — Present</span>
+          <h3>Bachelor of Technology - (B.Tech)</h3>
+          <p class="timeline-org">Computer Science &amp; Engineering</p>
+          <p>Mandsaur University</p>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-date">2024 — 2025</span>
+          <h3>N.S Shanghavi H.S School - (12th Boards)</h3>
+          <p class="timeline-org" style="margin-bottom: 2px;">Science Stream</p>
+          <p class="timeline-org" style="margin-bottom: 10px">12th Boards:  60%</p>
+          <p>Senior Secondary School</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <p class="section-tag">07 — Let's connect</p>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">
+        Have a project in mind, a question about my work, or just want to say hi? My inbox is open.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-cards" data-aos="fade-right">
+        <a href="mailto:madhavrs.official@gmail.com" class="contact-card glass">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>madhavrs.official@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:+919243762486" class="contact-card glass">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 92437 62486</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/madhavshuklar21/" target="_blank" class="contact-card glass">
+          <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div>
+            <h4>LinkedIn</h4>
+            <p>linkedin.com/in/madhavrshuklar21</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/madhavrs2106" target="_blank" class="contact-card glass">
+          <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+          <div>
+            <h4>GitHub</h4>
+            <p>github.com/madhavrs2106</p>
+          </div>
+        </a>
+
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Location</h4>
+            <p>Madhya Pradesh, India</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form glass" data-aos="fade-left" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me a bit more..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a href="#home" class="logo">MS<span class="logo-dot">.</span></a>
+    <p class="footer-credit">Designed &amp; Developed by <span>Madhav Shukla</span></p>
+    <div class="footer-socials">
+      <a href="https://github.com/madhavrs2106" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/madhavshuklar21/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://wa.me/9243762486" target="_blank" aria-label="Email"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p class="footer-copy">&copy; 2026 All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/typing.js"></script>
+<script src="js/particles.js"></script>
+</body>
+</html>

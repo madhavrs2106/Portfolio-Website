@@ -1,0 +1,56 @@
+/* ===================================================
+   KEYFRAMES
+=================================================== */
+
+@keyframes floatBlob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.08); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+}
+
+@keyframes floatCard {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes scrollDot {
+  0% { opacity: 1; top: 6px; }
+  50% { opacity: 0.4; top: 20px; }
+  100% { opacity: 1; top: 6px; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===================================================
+   REVEAL HELPERS (fallback if AOS hasn't loaded yet)
+=================================================== */
+[data-aos] {
+  pointer-events: auto;
+}
+
+/* ===================================================
+   REDUCED MOTION
+=================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .blob, .float-card, .photo-ring, .scroll-down span, .cursor-blink {
+    animation: none !important;
+  }
+}
